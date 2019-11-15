@@ -6,7 +6,6 @@ const express = require('express');
 const cors = require('cors');
 const morgan = require('morgan');
 const client = require('./lib/client');
-const cardsAPI = require('./lib/cards-api');
 // Initiate database connection
 client.connect();
 

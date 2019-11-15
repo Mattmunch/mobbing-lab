@@ -3,18 +3,18 @@ import Component from '../Component.js';
 class TodoItem extends Component {
 
     onRender(dom) {
-        const todo = this.props.todo;
-        const onUpdate = this.props.onUpdate;
-        const onRemove = this.props.onRemove;
+        // const card = this.props.card;
+        //const onUpdate = this.props.onUpdate;
+        //const onRemove = this.props.onRemove;
 
         
     }
 
     renderHTML() {
-        const todo = this.props.todo;
+        const card = this.props.card;
 
         return /*html*/`
-            
+            <img src="${card.image}">
         `;
     }
 }
