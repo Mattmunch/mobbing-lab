@@ -20,7 +20,7 @@ async function run() {
             );
             CREATE TABLE favorites (
                 id SERIAL PRIMARY KEY NOT NULL,
-                card VARCHAR(512) NOT NULL,
+                cardcode VARCHAR(512) NOT NULL,
                 favorite BOOLEAN NOT NULL DEFAULT FALSE
             );
         `);
