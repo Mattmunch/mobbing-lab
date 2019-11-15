@@ -12,20 +12,20 @@ async function fetchWithError(url, options) {
     }
 }
 
-export function getTodos() {  
-    const url = `${URL}/todos`;
+export function getCards() {  
+    const url = `${URL}/cards`;
     return fetchWithError(url);
 }
 
-export function addTodo(todo) {  
+// export function addTodo(todo) {  
     
-}
+// }
 
-export function updateTodo(todo) {  
+// export function updateTodo(todo) {  
     
-}
+// }
 
-export function removeTodo(todoId) {  
+// export function removeTodo(todoId) {  
     
-}
+// }
 
